@@ -1,13 +1,20 @@
 tidy-html5 (1:5.2.0-1.1) unstable; urgency=medium
 
+  [ Gianfranco Costamagna ]
+  * Install all headers to /usr/include/tidy/ to unbreak abiword
+  * Add libdmalloc-dev dependency for libtidy-dev, needed for dmalloc.h
+    include
+
+  [ Ondřej Surý ]
   * Non-maintainer upload
   * Fix the wrong Replaces for shared libraries
   * Add Breaks/Replaces between libtidy-dev and libtidy-0.99-0
     (Closes: #827716)
   * Remove Pre-Depends on pre-wheezy dpkg version
   * Add compatibility headers back (Closes: #827891)
+  * Add Vcs-* to collab-maint
 
- -- Ondřej Surý <ondrej@debian.org>  Tue, 28 Jun 2016 11:55:28 +0200
+ -- Ondřej Surý <ondrej@debian.org>  Tue, 28 Jun 2016 15:36:42 +0200
 
 tidy-html5 (1:5.2.0-1) unstable; urgency=low
 
