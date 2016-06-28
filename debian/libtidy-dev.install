@@ -1,4 +1,6 @@
 README/RELEASE.html /usr/share/doc/libtidy-dev/
-usr/include/* usr/include/tidy
+usr/include/tidy*
+usr/include/buffio.h /usr/include/tidy/
+usr/include/platform.h /usr/include/tidy/
 usr/lib/libtidy.so
 usr/lib/libtidys.a
