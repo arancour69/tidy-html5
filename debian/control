@@ -49,7 +49,7 @@ Description: HTML syntax checker and reformatter - library
 Package: libtidy-dev
 Section: libdevel
 Architecture: any
-Depends: libtidy5 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: libtidy5 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}, libdmalloc-dev
 Breaks: libtidy-0.99-0
 Replaces: libtidy-0.99-0 
 Description: HTML syntax checker and reformatter - development
