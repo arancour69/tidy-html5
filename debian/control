@@ -30,7 +30,8 @@ Description: HTML/XML syntax checker and reformatter - library
 Package: libtidy-dev
 Section: libdevel
 Architecture: any
-Depends: libtidy5 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}, libdmalloc-dev
+Depends: libtidy5 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Suggests: libdmalloc-dev
 Breaks: libtidy-0.99-0
 Replaces: libtidy-0.99-0 
 Description: HTML/XML syntax checker and reformatter - development
