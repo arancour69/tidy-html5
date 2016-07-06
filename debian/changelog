@@ -9,8 +9,6 @@ tidy-html5 (1:5.2.0-2) unstable; urgency=low
     an extra #define. (Closes: #829147)
 
   [ Daniel James ]
-  * Increase libtidy-dev from Breaks to Conflicts on libtidy-0.99-0, fix
-    Replaces
   * Update copyright notice after clarification with upstream
   * Remove obsolete instructions for building tarballs from CVS
   * Improve package descriptions in control file (Closes: #429582,
@@ -19,7 +17,7 @@ tidy-html5 (1:5.2.0-2) unstable; urgency=low
     Closes: #461655)
   * Add machine-readable copyright file crediting University of Toronto
 
- -- Daniel James <daniel@64studio.com>  Wed, 06 Jul 2016 12:04:08 +0100
+ -- Jason Thomas <jason@debian.org> Wed, 06 Jul 2016 12:04:08 +0100
 
 tidy-html5 (1:5.2.0-1.1) unstable; urgency=medium
 
