@@ -21,6 +21,7 @@ Package: libtidy5
 Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Replaces: libtidy-0.99-0, libtidy0
 Description: HTML/XML syntax checker and reformatter - library
  This is a library package, used by programs which have a dependency on
  libtidy5. If you want to run Tidy on the command line, please install the
@@ -32,8 +33,7 @@ Section: libdevel
 Architecture: any
 Depends: libtidy5 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Suggests: libdmalloc-dev
-Breaks: libtidy-0.99-0
-Replaces: libtidy-0.99-0 
+Conflicts: libtidy-0.99-0
 Description: HTML/XML syntax checker and reformatter - development
  This is a development package, which contains header files and a static
  library. It can be removed if you are not building packages from source which
