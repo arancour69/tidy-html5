@@ -17,7 +17,7 @@ tidy-html5 (1:5.2.0-2) unstable; urgency=low
     Closes: #461655)
   * Add machine-readable copyright file crediting University of Toronto
 
- -- Jason Thomas <jason@debian.org> Wed, 06 Jul 2016 12:04:08 +0100
+ -- Jason Thomas <jason@debian.org>  Wed, 06 Jul 2016 12:04:08 +0100
 
 tidy-html5 (1:5.2.0-1.1) unstable; urgency=medium
 
