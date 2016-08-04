@@ -21,6 +21,9 @@ tidy-html5 (1:5.2.0-2) unstable; urgency=low
   * Backport upstream commit 27143cc88e1d7cda7f08bdc4d78ce68dabf7575c to fix
     build on non-Linux architectures; patch
     upstream_Set-HAS_FUTIME-0-on-any-GNU-libc-platform.patch. (Closes: #828632)
+  * Backport upstream commit 10281040ca6b3a54db7880eed9c67957d11622eb to avoid
+    crashing in tidyCleanAndRepair if document was not loaded; patch
+    upstream_Avoid-crash-in-tidyCleanAndRepair-if-document-was-no.patch.
 
  -- Jason Thomas <jason@debian.org>  Wed, 06 Jul 2016 12:04:08 +0100
 
