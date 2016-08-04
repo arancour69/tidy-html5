@@ -25,6 +25,9 @@ tidy-html5 (1:5.2.0-2) unstable; urgency=low
     crashing in tidyCleanAndRepair if document was not loaded; patch
     upstream_Avoid-crash-in-tidyCleanAndRepair-if-document-was-no.patch.
 
+  [ Mattia Rizzolo ]
+  * d/rules: wrap long line.
+
  -- Daniel James <daniel@64studio.com>  Thu, 04 Aug 2016 09:55:19 +0000
 
 tidy-html5 (1:5.2.0-1.1) unstable; urgency=medium
