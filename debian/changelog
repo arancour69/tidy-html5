@@ -27,6 +27,7 @@ tidy-html5 (1:5.2.0-2) unstable; urgency=low
 
   [ Mattia Rizzolo ]
   * d/rules: wrap long line.
+  * d/rules: enable parallel building
 
  -- Daniel James <daniel@64studio.com>  Thu, 04 Aug 2016 09:55:19 +0000
 
