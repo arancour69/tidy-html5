@@ -18,6 +18,7 @@ tidy-html5 (1:5.2.0-2) unstable; urgency=low
   * Copy upstream changelog to standard location (Closes: #355042,
     Closes: #461655)
   * Add machine-readable copyright file crediting University of Toronto
+  * Reinstate Jason Thomas as maintainer.
 
   [ Pino Toscano ]
   * Backport upstream commit 27143cc88e1d7cda7f08bdc4d78ce68dabf7575c to fix

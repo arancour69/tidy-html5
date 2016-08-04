@@ -3,7 +3,9 @@ Upstream-Name: tidy-html5
 Source: https://github.com/htacg/tidy-html5/releases
 
 Files: *
-Copyright: Copyright (c) 1998-2016 World Wide Web Consortium
+Copyright: 1998-2016 World Wide Web Consortium
+License: tidy
+Comment:
  (Massachusetts Institute of Technology, European Research Consortium for
  Informatics and Mathematics, Keio University).
  All Rights Reserved.
@@ -16,9 +18,13 @@ Copyright: Copyright (c) 1998-2016 World Wide Web Consortium
     Dave Raggett <dsr@w3.org>
  .
  The contributing author(s) would like to thank all those who
- helped with testing, bug fixes and suggestions for improvements. 
+ helped with testing, bug fixes and suggestions for improvements.
  This wouldn't have been possible without your help.
- .
+
+Files: debian/*
+Copyright: 2001-2016 Jason Thomas <jason@debian.org>
+License: tidy
+
 License: tidy
  This software and documentation is provided "as is," and
  the copyright holders and contributing author(s) make no
