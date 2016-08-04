@@ -1,5 +1,7 @@
 tidy-html5 (1:5.2.0-2) unstable; urgency=low
 
+  * Team upload.
+
   [ Jason Thomas ]
   * Add define for TIDY_CONFIG_FILE & TIDY_USER_CONFIG_FILE (Closes: #830066)
   * Remove debian/tidy.1 and use tidy.1 built from source
